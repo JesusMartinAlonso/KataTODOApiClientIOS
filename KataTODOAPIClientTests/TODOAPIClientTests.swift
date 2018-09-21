@@ -44,6 +44,8 @@ class TODOAPIClientTests: NocillaTestCase {
         expect(result?.value?.count).toEventually(equal(200))
         assertTaskContainsExpectedValues(task: (result?.value?[0])!)
     }
+    
+
 
     func testReturnsNetworkErrorIfThereIsNoConnectionGettingAllTasks() {
         stubRequest("GET", "http://jsonplaceholder.typicode.com/todos")
@@ -63,4 +65,25 @@ class TODOAPIClientTests: NocillaTestCase {
         expect(task.title).to(equal("delectus aut autem"))
         expect(task.completed).to(beFalse())
     }
+    
+    
+    func test_return_unknown_error_500_getting_all_tasks(){
+        
+        _  = stubRequest("GET", "http://jsonplaceholder.typicode.com/todos")
+        .andReturn(500)
+        
+        var result: Result<[TaskDTO], TODOAPIClientError>?
+        apiClient.getAllTasks { (response) in
+            result = response
+        }
+        
+        expect(result?.error).toEventually(equal(TODOAPIClientError.unknownError(code: 500)))
+        
+        
+        
+    }
+    
+    
+    
+    
 }
