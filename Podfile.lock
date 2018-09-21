@@ -13,7 +13,7 @@ DEPENDENCIES:
   - Nocilla (~> 0.11.0)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - BothamNetworking
     - Nimble
     - Nocilla
@@ -29,4 +29,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 97a074876257b874cdaca36d4c9599fa7e26daab
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
