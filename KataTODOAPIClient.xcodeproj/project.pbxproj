@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DBB8BD8215535C2006A13DE /* malformed.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB8BD7215535C2006A13DE /* malformed.json */; };
 		49FF1D361F2B9CF400AAA40D /* LSStubRequestDSL+Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF1D351F2B9CF400AAA40D /* LSStubRequestDSL+Json.swift */; };
 		49FF1D381F2BA37500AAA40D /* LSStubResponseDSL+Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF1D371F2BA37500AAA40D /* LSStubResponseDSL+Json.swift */; };
 		A728FA85059C08A58464AD4B /* Pods_KataTODOAPIClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74BAB9FE6332141F4937F17 /* Pods_KataTODOAPIClientTests.framework */; };
@@ -44,6 +45,7 @@
 /* Begin PBXFileReference section */
 		0848BC66DFE0F68A5F29B5ED /* Pods-KataTODOAPIClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataTODOAPIClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KataTODOAPIClientTests/Pods-KataTODOAPIClientTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0F618648049BD9D1C4BA6CBB /* Pods_KataTODOAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KataTODOAPIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBB8BD7215535C2006A13DE /* malformed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = malformed.json; sourceTree = "<group>"; };
 		35637D6F85613D08BE7B1A1A /* Pods-KataTODOAPIClient-KataTODOAPIClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataTODOAPIClient-KataTODOAPIClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KataTODOAPIClient-KataTODOAPIClientTests/Pods-KataTODOAPIClient-KataTODOAPIClientTests.release.xcconfig"; sourceTree = "<group>"; };
 		49FF1D351F2B9CF400AAA40D /* LSStubRequestDSL+Json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LSStubRequestDSL+Json.swift"; sourceTree = "<group>"; };
 		49FF1D371F2BA37500AAA40D /* LSStubResponseDSL+Json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LSStubResponseDSL+Json.swift"; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 		EB28C8901C6DFC08004A5E74 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
+				2DBB8BD7215535C2006A13DE /* malformed.json */,
 				EB28C8911C6DFC23004A5E74 /* getTasksResponse.json */,
 				EB28C8981C6E00D5004A5E74 /* getTaskByIdResponse.json */,
 				EB28C89A1C6E0327004A5E74 /* addTaskToUserRequest.json */,
@@ -333,6 +336,7 @@
 				EB2B5E9E1E657D5E00B62211 /* updateTaskResponse.json in Resources */,
 				EB2B5E9B1E657D5400B62211 /* addTaskToUserRequest.json in Resources */,
 				EB2B5E9A1E657D5100B62211 /* getTaskByIdResponse.json in Resources */,
+				2DBB8BD8215535C2006A13DE /* malformed.json in Resources */,
 				EB2B5E9D1E657D5A00B62211 /* updateTaskRequest.json in Resources */,
 				EB2B5E991E657D4D00B62211 /* getTasksResponse.json in Resources */,
 				EB2B5E9C1E657D5700B62211 /* addTaskToUserResponse.json in Resources */,
